@@ -1,0 +1,143 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.player-wrapper{
+    width:100%;
+    height:100vh;
+    /*background-color: chartreuse;*/
+}
+.contenuto{
+    width:100%;
+   height: calc(100% - 90px);
+    /*background-color: red;*/
+    overflow-y: auto;
+    position:relative;
+    background-color:rgba(0,0,0,100%);
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.abs{
+    position:absolute;
+}
+
+.colore{
+    background-color: rgba(107, 120, 131, 100%);
+    color:white;
+}
+
+
+.toolbar{
+    background-color: rgba(0,0,255,0.5);
+    height:90px;
+    width:100%;
+}
+
+.container{
+    width:90%;
+    /*height:80%;debug*/
+    /*background-color: yellow;*/
+    margin:50px auto;
+}
+.row{
+    
+    flex-wrap: wrap;
+    width:100%;
+}
+.col{
+    width:calc(100% / 7 - 10px);
+    /*height:50px;*/
+    background-color:green;
+    margin-bottom:1.5rem;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.card{
+    position:relative;
+    
+}
+
+
+
+.card .description span{
+    display: inline-block;
+    background-color: rgba(107, 120, 131, 100%);
+    color:white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:0.3rem;
+}
+.cross{
+    top:4px;
+    right:4px;
+    font-size: 1.4rem;
+    height:1.7rem;
+    width:1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    border-radius:4px;
+}
+.speaker{
+    top:4px;
+    right:35px;
+    line-height:1.7rem;
+    height:1.7rem;
+    padding:0px 0.2rem;
+}
+
+
+/* toolbar */
+
+.toolbar{
+    color:white;
+    background-color: rgba(34,34,34,100%);
+}
+
+.contenitore{
+    height:100%;
+    display: flex;
+    
+}
+.primo, .terzo{
+    width:10%;
+    height:100%;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    padding-top:1.5rem;
+}  
+.secondo{ 
+     width:60%;
+    height:100%;
+    display:flex;
+   justify-content: space-between;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.toolbar div i:first-child{
+    font-size: 1.5rem;
+}
+.terzo{
+    text-align:center;
+    background-color: rgba(107, 120, 131, 100%);
+    padding-top: 2rem;
+    color:red;
+    background-color: rgba(74,74,74,100%);
+}
+
+
+.primo p, .secondo p{
+    padding-top:0.7rem;
+}
