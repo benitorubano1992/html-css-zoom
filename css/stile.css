@@ -132,7 +132,7 @@ img{
     font-size: 1.5rem;
 }
 .terzo{
-    text-align:center;
+    justify-content: center;
     background-color: rgba(107, 120, 131, 100%);
     /*padding-top: 2rem;*/
     color:red;
@@ -142,4 +142,7 @@ img{
 
 .primo p, .secondo p{
     padding-top:0.7rem;
+}
+.sharescreen i{
+    color:green
 }
